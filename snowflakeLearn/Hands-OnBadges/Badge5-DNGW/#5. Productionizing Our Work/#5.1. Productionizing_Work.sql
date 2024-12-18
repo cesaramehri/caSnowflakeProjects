@@ -267,3 +267,8 @@ where gamer_name = 'fake user';
 
 --Row count should be back to what it was in the beginning
 select * from AGS_GAME_AUDIENCE.ENHANCED.LOGS_ENHANCED;
+
+
+
+---
+ALTER TASK AGS_GAME_AUDIENCE.RAW.LOAD_LOGS_ENHANCED SUSPEND;
